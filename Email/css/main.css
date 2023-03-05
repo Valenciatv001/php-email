@@ -1,0 +1,44 @@
+body {
+    background-image: linear-gradient(to right, rgba(0, 0, 255, 0.492), rgba(0, 128, 0, 0.5));
+}
+
+p {
+    color: #fff;
+    font-weight: 800;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.contact-form {
+    justify-content: center;
+    text-align: center;
+}
+
+.contact-form input{
+    padding: 0rem 2rem;
+    width: 30rem;
+    height: 3rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+}
+
+textarea {
+    padding: 0rem 2rem;
+    width: 30rem;
+    height: 10rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+}
+
+
+button { 
+    width: 10rem;
+    height: 4rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+}
+
+button:hover {
+    background-color: lightgreen;
+}
